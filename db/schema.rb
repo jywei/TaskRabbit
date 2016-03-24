@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160324123013) do
+ActiveRecord::Schema.define(version: 20160324150312) do
 
-  create_table "tasts", force: :cascade do |t|
+  create_table "tasks", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
     t.string   "company"
